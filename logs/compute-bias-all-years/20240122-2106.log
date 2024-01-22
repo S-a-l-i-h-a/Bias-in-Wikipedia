@@ -1,0 +1,200 @@
+2024-01-22 21:06:25,942 INFO     Computing biases using years [2010, 2017, 2023, 2024], filter=False, iterations=5,boxplot_years=[2010, 2017, 2023, 2024], skip_significance=True
+2024-01-22 21:06:25,998 INFO     Loaded word list from 2010_iter5-vocab.pkl and vectors from 2010_iter5.vectors.wv.npy
+2024-01-22 21:06:26,018 INFO     Loaded word list from 2017_iter5-vocab.pkl and vectors from 2017_iter5.vectors.wv.npy
+2024-01-22 21:06:26,036 INFO     Loaded word list from 2023_iter5-vocab.pkl and vectors from 2023_iter5.vectors.wv.npy
+2024-01-22 21:06:26,042 INFO     Loaded word list from 2024_iter5-vocab.pkl and vectors from 2024_iter5.vectors.wv.npy
+2024-01-22 21:06:26,042 INFO     The weat category words are: {'WEAT_Topic_Career': ['executive', 'management', 'professional', 'corporation', 'salary', 'office', 'business', 'career'], 'WEAT_Topic_Family': ['home', 'parents', 'children', 'family', 'cousins', 'marriage', 'wedding', 'relatives'], 'WEAT_Topic_Arts': ['poetry', 'art', 'dance', 'literature', 'novel', 'symphony', 'drama', 'sculpture', 'shakespeare'], 'WEAT_Topic_Science': ['science', 'technology', 'physics', 'chemistry', 'einstein', 'nasa', 'experiment', 'astronomy']}
+2024-01-22 21:06:28,207 INFO     slope of Family is 0.0012205357551574706
+2024-01-22 21:06:28,208 INFO     slope of Career is -0.003277712931856513
+2024-01-22 21:06:28,208 INFO     slope of Science is -0.0033394958693534135
+2024-01-22 21:06:28,208 INFO     slope of Arts is 0.002021027136594057
+2024-01-22 21:06:28,208 INFO     Trying to open data/random-biases/regular/iter5/2010-bias-scores_iter5.pkl
+2024-01-22 21:06:28,210 INFO     Trying to open data/random-biases/regular/iter5/2017-bias-scores_iter5.pkl
+2024-01-22 21:06:28,210 INFO     No existing random biases found for 2017, computing them
+2024-01-22 21:06:28,210 INFO     Significance test moment for 2017 with filter=False and iterations 5
+2024-01-22 21:06:28,210 INFO     Gender bias wiki with 2017 and _iter5
+2024-01-22 21:06:28,210 INFO     Loading embeddings for start 2017, end 2018 and step 2
+2024-01-22 21:06:28,227 INFO     Loaded 2017_iter5-vocab.pkl
+2024-01-22 21:06:28,240 INFO     Loaded vectors from 2017_iter5.vectors.wv.npy
+2024-01-22 21:06:28,241 INFO     WEAT Dataset Loading
+2024-01-22 21:06:28,399 INFO     Random biases in year, progress 0/1000
+2024-01-22 21:06:35,844 INFO     Random biases in year, progress 50/1000
+2024-01-22 21:06:43,203 INFO     Random biases in year, progress 100/1000
+2024-01-22 21:06:50,556 INFO     Random biases in year, progress 150/1000
+2024-01-22 21:06:57,921 INFO     Random biases in year, progress 200/1000
+2024-01-22 21:07:05,262 INFO     Random biases in year, progress 250/1000
+2024-01-22 21:07:12,876 INFO     Random biases in year, progress 300/1000
+2024-01-22 21:07:20,822 INFO     Random biases in year, progress 350/1000
+2024-01-22 21:07:28,925 INFO     Random biases in year, progress 400/1000
+2024-01-22 21:07:36,931 INFO     Random biases in year, progress 450/1000
+2024-01-22 21:07:44,541 INFO     Random biases in year, progress 500/1000
+2024-01-22 21:07:52,224 INFO     Random biases in year, progress 550/1000
+2024-01-22 21:07:59,950 INFO     Random biases in year, progress 600/1000
+2024-01-22 21:08:07,291 INFO     Random biases in year, progress 650/1000
+2024-01-22 21:08:14,706 INFO     Random biases in year, progress 700/1000
+2024-01-22 21:08:22,297 INFO     Random biases in year, progress 750/1000
+2024-01-22 21:08:30,041 INFO     Random biases in year, progress 800/1000
+2024-01-22 21:08:37,652 INFO     Random biases in year, progress 850/1000
+2024-01-22 21:08:45,321 INFO     Random biases in year, progress 900/1000
+2024-01-22 21:08:52,721 INFO     Random biases in year, progress 950/1000
+2024-01-22 21:09:00,154 INFO     Bias Mean/STD: 0.0021771350875496864, 0.014392596669495106
+2024-01-22 21:09:00,251 INFO     Trying to open data/random-biases/regular/iter5/2023-bias-scores_iter5.pkl
+2024-01-22 21:09:00,252 INFO     Trying to open data/random-biases/regular/iter5/2024-bias-scores_iter5.pkl
+2024-01-22 21:09:00,265 INFO     Saved as results/regular/iter5/biases-plot-20240122-2109.pdf
+2024-01-22 21:09:00,491 INFO     Evaluating quality
+2024-01-22 21:09:00,491 INFO     loading Word2Vec object from data/models/regular/iter5/2010_iter5
+2024-01-22 21:09:00,524 INFO     loading wv recursively from data/models/regular/iter5/2010_iter5.wv.* with mmap=None
+2024-01-22 21:09:00,524 INFO     setting ignored attribute cum_table to None
+2024-01-22 21:09:00,650 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter5/2010_iter5', 'datetime': '2024-01-22T21:09:00.650135', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 21:09:00,659 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 21:09:00,659 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 21:09:00,659 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 21:09:00,659 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 21:09:00,659 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 21:09:00,660 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 21:09:00,660 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 21:09:00,661 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 21:09:00,663 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5602
+2024-01-22 21:09:00,663 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5770
+2024-01-22 21:09:00,663 INFO     Pairs with unknown words ratio: 2.3%
+2024-01-22 21:09:00,663 INFO     2010
+2024-01-22 21:09:00,663 INFO     SPEARMAN SCORES: 
+2024-01-22 21:09:00,663 INFO     {2010: 0.5769769638425966}
+2024-01-22 21:09:00,663 INFO     PEARSON SCORES:
+2024-01-22 21:09:00,663 INFO     {2010: 0.5601604406466267}
+2024-01-22 21:09:00,663 INFO     loading Word2Vec object from data/models/regular/iter5/2017_iter5
+2024-01-22 21:09:00,698 INFO     loading wv recursively from data/models/regular/iter5/2017_iter5.wv.* with mmap=None
+2024-01-22 21:09:00,698 INFO     setting ignored attribute cum_table to None
+2024-01-22 21:09:00,813 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter5/2017_iter5', 'datetime': '2024-01-22T21:09:00.813473', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 21:09:00,821 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 21:09:00,821 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 21:09:00,821 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 21:09:00,821 INFO     Skipping line #53 with OOV words: movie	popcorn	6.19
+2024-01-22 21:09:00,822 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 21:09:00,822 INFO     Skipping line #110 with OOV words: tiger	feline	8.00
+2024-01-22 21:09:00,822 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 21:09:00,822 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 21:09:00,823 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 21:09:00,823 INFO     Skipping line #349 with OOV words: shower	thunderstorm	6.31
+2024-01-22 21:09:00,824 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5751
+2024-01-22 21:09:00,824 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5952
+2024-01-22 21:09:00,824 INFO     Pairs with unknown words ratio: 2.8%
+2024-01-22 21:09:00,824 INFO     2017
+2024-01-22 21:09:00,824 INFO     SPEARMAN SCORES: 
+2024-01-22 21:09:00,824 INFO     {2010: 0.5769769638425966, 2017: 0.5952366916214747}
+2024-01-22 21:09:00,824 INFO     PEARSON SCORES:
+2024-01-22 21:09:00,824 INFO     {2010: 0.5601604406466267, 2017: 0.5750785948860955}
+2024-01-22 21:09:00,824 INFO     loading Word2Vec object from data/models/regular/iter5/2023_iter5
+2024-01-22 21:09:00,853 INFO     loading wv recursively from data/models/regular/iter5/2023_iter5.wv.* with mmap=None
+2024-01-22 21:09:00,853 INFO     setting ignored attribute cum_table to None
+2024-01-22 21:09:00,962 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter5/2023_iter5', 'datetime': '2024-01-22T21:09:00.962418', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 21:09:00,969 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 21:09:00,969 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 21:09:00,969 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 21:09:00,969 INFO     Skipping line #37 with OOV words: king	rook	5.92
+2024-01-22 21:09:00,969 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 21:09:00,970 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 21:09:00,970 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 21:09:00,970 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 21:09:00,971 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5938
+2024-01-22 21:09:00,972 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.6113
+2024-01-22 21:09:00,972 INFO     Pairs with unknown words ratio: 2.3%
+2024-01-22 21:09:00,972 INFO     2023
+2024-01-22 21:09:00,972 INFO     SPEARMAN SCORES: 
+2024-01-22 21:09:00,972 INFO     {2010: 0.5769769638425966, 2017: 0.5952366916214747, 2023: 0.6112819440717777}
+2024-01-22 21:09:00,972 INFO     PEARSON SCORES:
+2024-01-22 21:09:00,972 INFO     {2010: 0.5601604406466267, 2017: 0.5750785948860955, 2023: 0.5938144382132445}
+2024-01-22 21:09:00,972 INFO     loading Word2Vec object from data/models/regular/iter5/2024_iter5
+2024-01-22 21:09:00,984 INFO     loading wv recursively from data/models/regular/iter5/2024_iter5.wv.* with mmap=None
+2024-01-22 21:09:00,984 INFO     setting ignored attribute cum_table to None
+2024-01-22 21:09:01,024 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter5/2024_iter5', 'datetime': '2024-01-22T21:09:01.024890', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 21:09:01,028 INFO     Skipping line #3 with OOV words: tiger	cat	7.35
+2024-01-22 21:09:01,028 INFO     Skipping line #4 with OOV words: tiger	tiger	10.00
+2024-01-22 21:09:01,028 INFO     Skipping line #14 with OOV words: bread	butter	6.19
+2024-01-22 21:09:01,028 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 21:09:01,028 INFO     Skipping line #25 with OOV words: stock	jaguar	0.92
+2024-01-22 21:09:01,028 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 21:09:01,028 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 21:09:01,028 INFO     Skipping line #37 with OOV words: king	rook	5.92
+2024-01-22 21:09:01,028 INFO     Skipping line #42 with OOV words: fuck	sex	9.44
+2024-01-22 21:09:01,028 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 21:09:01,028 INFO     Skipping line #47 with OOV words: tennis	racket	7.56
+2024-01-22 21:09:01,028 INFO     Skipping line #48 with OOV words: Arafat	peace	6.73
+2024-01-22 21:09:01,028 INFO     Skipping line #49 with OOV words: Arafat	terror	7.65
+2024-01-22 21:09:01,028 INFO     Skipping line #50 with OOV words: Arafat	Jackson	2.50
+2024-01-22 21:09:01,028 INFO     Skipping line #53 with OOV words: movie	popcorn	6.19
+2024-01-22 21:09:01,028 INFO     Skipping line #60 with OOV words: vodka	gin	8.46
+2024-01-22 21:09:01,028 INFO     Skipping line #61 with OOV words: vodka	brandy	8.13
+2024-01-22 21:09:01,028 INFO     Skipping line #69 with OOV words: gem	jewel	8.96
+2024-01-22 21:09:01,028 INFO     Skipping line #71 with OOV words: boy	lad	8.83
+2024-01-22 21:09:01,028 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 21:09:01,028 INFO     Skipping line #75 with OOV words: midday	noon	9.29
+2024-01-22 21:09:01,028 INFO     Skipping line #76 with OOV words: furnace	stove	8.79
+2024-01-22 21:09:01,028 INFO     Skipping line #78 with OOV words: bird	cock	7.10
+2024-01-22 21:09:01,028 INFO     Skipping line #83 with OOV words: lad	brother	4.46
+2024-01-22 21:09:01,029 INFO     Skipping line #93 with OOV words: lad	wizard	0.92
+2024-01-22 21:09:01,029 INFO     Skipping line #105 with OOV words: money	deposit	7.73
+2024-01-22 21:09:01,029 INFO     Skipping line #107 with OOV words: money	laundering	5.65
+2024-01-22 21:09:01,029 INFO     Skipping line #109 with OOV words: tiger	jaguar	8.00
+2024-01-22 21:09:01,029 INFO     Skipping line #110 with OOV words: tiger	feline	8.00
+2024-01-22 21:09:01,029 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 21:09:01,029 INFO     Skipping line #112 with OOV words: tiger	mammal	6.85
+2024-01-22 21:09:01,029 INFO     Skipping line #113 with OOV words: tiger	animal	7.00
+2024-01-22 21:09:01,029 INFO     Skipping line #114 with OOV words: tiger	organism	4.77
+2024-01-22 21:09:01,029 INFO     Skipping line #115 with OOV words: tiger	fauna	5.62
+2024-01-22 21:09:01,029 INFO     Skipping line #116 with OOV words: tiger	zoo	5.87
+2024-01-22 21:09:01,029 INFO     Skipping line #142 with OOV words: precedent	antecedent	6.04
+2024-01-22 21:09:01,029 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 21:09:01,029 INFO     Skipping line #146 with OOV words: cup	artifact	2.92
+2024-01-22 21:09:01,029 INFO     Skipping line #153 with OOV words: jaguar	cat	7.42
+2024-01-22 21:09:01,029 INFO     Skipping line #154 with OOV words: jaguar	car	7.27
+2024-01-22 21:09:01,029 INFO     Skipping line #160 with OOV words: FBI	fingerprint	6.94
+2024-01-22 21:09:01,029 INFO     Skipping line #166 with OOV words: canyon	landscape	7.53
+2024-01-22 21:09:01,029 INFO     Skipping line #169 with OOV words: water	seepage	6.56
+2024-01-22 21:09:01,029 INFO     Skipping line #170 with OOV words: sign	recess	2.38
+2024-01-22 21:09:01,029 INFO     Skipping line #172 with OOV words: mile	kilometer	8.66
+2024-01-22 21:09:01,029 INFO     Skipping line #184 with OOV words: decoration	valor	5.63
+2024-01-22 21:09:01,029 INFO     Skipping line #200 with OOV words: disability	death	5.47
+2024-01-22 21:09:01,029 INFO     Skipping line #208 with OOV words: reason	hypertension	2.31
+2024-01-22 21:09:01,029 INFO     Skipping line #214 with OOV words: death	inmate	5.03
+2024-01-22 21:09:01,029 INFO     Skipping line #221 with OOV words: OPEC	country	5.63
+2024-01-22 21:09:01,029 INFO     Skipping line #224 with OOV words: territory	kilometer	5.28
+2024-01-22 21:09:01,029 INFO     Skipping line #233 with OOV words: hotel	reservation	8.03
+2024-01-22 21:09:01,029 INFO     Skipping line #234 with OOV words: grocery	money	5.94
+2024-01-22 21:09:01,029 INFO     Skipping line #240 with OOV words: bed	closet	6.72
+2024-01-22 21:09:01,029 INFO     Skipping line #241 with OOV words: closet	clothes	8.00
+2024-01-22 21:09:01,029 INFO     Skipping line #244 with OOV words: impartiality	interest	5.16
+2024-01-22 21:09:01,029 INFO     Skipping line #253 with OOV words: production	hike	1.75
+2024-01-22 21:09:01,029 INFO     Skipping line #254 with OOV words: benchmark	index	4.25
+2024-01-22 21:09:01,030 INFO     Skipping line #257 with OOV words: dividend	payment	7.63
+2024-01-22 21:09:01,030 INFO     Skipping line #258 with OOV words: dividend	calculation	6.48
+2024-01-22 21:09:01,030 INFO     Skipping line #261 with OOV words: OPEC	oil	8.59
+2024-01-22 21:09:01,030 INFO     Skipping line #267 with OOV words: dollar	yen	7.78
+2024-01-22 21:09:01,030 INFO     Skipping line #283 with OOV words: marathon	sprint	7.47
+2024-01-22 21:09:01,030 INFO     Skipping line #287 with OOV words: seafood	sea	7.47
+2024-01-22 21:09:01,030 INFO     Skipping line #288 with OOV words: seafood	food	8.34
+2024-01-22 21:09:01,030 INFO     Skipping line #289 with OOV words: seafood	lobster	8.70
+2024-01-22 21:09:01,030 INFO     Skipping line #290 with OOV words: lobster	food	7.81
+2024-01-22 21:09:01,030 INFO     Skipping line #291 with OOV words: lobster	wine	5.70
+2024-01-22 21:09:01,030 INFO     Skipping line #297 with OOV words: boxing	round	7.61
+2024-01-22 21:09:01,030 INFO     Skipping line #298 with OOV words: championship	tournament	8.36
+2024-01-22 21:09:01,030 INFO     Skipping line #302 with OOV words: summer	drought	7.16
+2024-01-22 21:09:01,030 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 21:09:01,030 INFO     Skipping line #311 with OOV words: soap	opera	7.94
+2024-01-22 21:09:01,030 INFO     Skipping line #339 with OOV words: aluminum	metal	7.83
+2024-01-22 21:09:01,030 INFO     Skipping line #341 with OOV words: exhibit	memorabilia	5.31
+2024-01-22 21:09:01,030 INFO     Skipping line #342 with OOV words: concert	virtuoso	6.81
+2024-01-22 21:09:01,030 INFO     Skipping line #349 with OOV words: shower	thunderstorm	6.31
+2024-01-22 21:09:01,030 INFO     Skipping line #350 with OOV words: shower	flood	6.03
+2024-01-22 21:09:01,031 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.2212
+2024-01-22 21:09:01,031 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.2282
+2024-01-22 21:09:01,031 INFO     Pairs with unknown words ratio: 22.1%
+2024-01-22 21:09:01,031 INFO     2024
+2024-01-22 21:09:01,031 INFO     SPEARMAN SCORES: 
+2024-01-22 21:09:01,031 INFO     {2010: 0.5769769638425966, 2017: 0.5952366916214747, 2023: 0.6112819440717777, 2024: 0.22821888749180785}
+2024-01-22 21:09:01,031 INFO     PEARSON SCORES:
+2024-01-22 21:09:01,031 INFO     {2010: 0.5601604406466267, 2017: 0.5750785948860955, 2023: 0.5938144382132445, 2024: 0.22116486701361882}
+2024-01-22 21:09:01,031 INFO     ;0.5601604406466267;0.5750785948860955;0.5938144382132445;0.22116486701361882
+;0.5769769638425966;0.5952366916214747;0.6112819440717777;0.22821888749180785
+2024-01-22 21:09:01,093 INFO     Average pearson quality score is 0.4875545851898964
+2024-01-22 21:09:01,093 INFO     Average spearman quality score is 0.5029286217569142

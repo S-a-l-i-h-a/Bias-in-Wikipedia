@@ -1,0 +1,233 @@
+2024-01-22 18:54:39,879 INFO     Computing biases using years [2010, 2017, 2023, 2024], filter=False, iterations=10,boxplot_years=[2010, 2017, 2023, 2024], skip_significance=True
+2024-01-22 18:54:39,939 INFO     Loaded word list from 2010_iter10-vocab.pkl and vectors from 2010_iter10.vectors.wv.npy
+2024-01-22 18:54:39,959 INFO     Loaded word list from 2017_iter10-vocab.pkl and vectors from 2017_iter10.vectors.wv.npy
+2024-01-22 18:54:39,977 INFO     Loaded word list from 2023_iter10-vocab.pkl and vectors from 2023_iter10.vectors.wv.npy
+2024-01-22 18:54:39,994 INFO     Loaded word list from 2024_iter10-vocab.pkl and vectors from 2024_iter10.vectors.wv.npy
+2024-01-22 18:54:39,995 INFO     The weat category words are: {'WEAT_Topic_Career': ['executive', 'management', 'professional', 'corporation', 'salary', 'office', 'business', 'career'], 'WEAT_Topic_Family': ['home', 'parents', 'children', 'family', 'cousins', 'marriage', 'wedding', 'relatives'], 'WEAT_Topic_Arts': ['poetry', 'art', 'dance', 'literature', 'novel', 'symphony', 'drama', 'sculpture', 'shakespeare'], 'WEAT_Topic_Science': ['science', 'technology', 'physics', 'chemistry', 'einstein', 'nasa', 'experiment', 'astronomy']}
+2024-01-22 18:54:42,179 INFO     slope of Family is 0.0012726600468158723
+2024-01-22 18:54:42,179 INFO     slope of Career is -0.0003894461803138256
+2024-01-22 18:54:42,180 INFO     slope of Science is -0.0006339306011795998
+2024-01-22 18:54:42,180 INFO     slope of Arts is 0.0019206918254494668
+2024-01-22 18:54:42,180 INFO     Trying to open data/random-biases/regular/iter10/2010-bias-scores_iter10.pkl
+2024-01-22 18:54:42,180 INFO     No existing random biases found for 2010, computing them
+2024-01-22 18:54:42,180 INFO     Significance test moment for 2010 with filter=False and iterations 10
+2024-01-22 18:54:42,180 INFO     Gender bias wiki with 2010 and _iter10
+2024-01-22 18:54:42,180 INFO     Loading embeddings for start 2010, end 2011 and step 2
+2024-01-22 18:54:42,198 INFO     Loaded 2010_iter10-vocab.pkl
+2024-01-22 18:54:42,209 INFO     Loaded vectors from 2010_iter10.vectors.wv.npy
+2024-01-22 18:54:42,211 INFO     WEAT Dataset Loading
+2024-01-22 18:54:42,364 INFO     Random biases in year, progress 0/1000
+2024-01-22 18:54:50,117 INFO     Random biases in year, progress 50/1000
+2024-01-22 18:54:57,704 INFO     Random biases in year, progress 100/1000
+2024-01-22 18:55:05,303 INFO     Random biases in year, progress 150/1000
+2024-01-22 18:55:13,213 INFO     Random biases in year, progress 200/1000
+2024-01-22 18:55:20,846 INFO     Random biases in year, progress 250/1000
+2024-01-22 18:55:28,425 INFO     Random biases in year, progress 300/1000
+2024-01-22 18:55:36,015 INFO     Random biases in year, progress 350/1000
+2024-01-22 18:55:43,557 INFO     Random biases in year, progress 400/1000
+2024-01-22 18:55:51,207 INFO     Random biases in year, progress 450/1000
+2024-01-22 18:55:58,871 INFO     Random biases in year, progress 500/1000
+2024-01-22 18:56:06,468 INFO     Random biases in year, progress 550/1000
+2024-01-22 18:56:14,219 INFO     Random biases in year, progress 600/1000
+2024-01-22 18:56:21,837 INFO     Random biases in year, progress 650/1000
+2024-01-22 18:56:29,459 INFO     Random biases in year, progress 700/1000
+2024-01-22 18:56:37,110 INFO     Random biases in year, progress 750/1000
+2024-01-22 18:56:44,829 INFO     Random biases in year, progress 800/1000
+2024-01-22 18:56:52,900 INFO     Random biases in year, progress 850/1000
+2024-01-22 18:57:00,854 INFO     Random biases in year, progress 900/1000
+2024-01-22 18:57:08,751 INFO     Random biases in year, progress 950/1000
+2024-01-22 18:57:16,735 INFO     Bias Mean/STD: -0.0024454323574900627, 0.014745249412953854
+2024-01-22 18:57:16,825 INFO     Trying to open data/random-biases/regular/iter10/2017-bias-scores_iter10.pkl
+2024-01-22 18:57:16,825 INFO     No existing random biases found for 2017, computing them
+2024-01-22 18:57:16,825 INFO     Significance test moment for 2017 with filter=False and iterations 10
+2024-01-22 18:57:16,825 INFO     Gender bias wiki with 2017 and _iter10
+2024-01-22 18:57:16,825 INFO     Loading embeddings for start 2017, end 2018 and step 2
+2024-01-22 18:57:16,844 INFO     Loaded 2017_iter10-vocab.pkl
+2024-01-22 18:57:16,864 INFO     Loaded vectors from 2017_iter10.vectors.wv.npy
+2024-01-22 18:57:16,866 INFO     WEAT Dataset Loading
+2024-01-22 18:57:17,026 INFO     Random biases in year, progress 0/1000
+2024-01-22 18:57:24,614 INFO     Random biases in year, progress 50/1000
+2024-01-22 18:57:32,040 INFO     Random biases in year, progress 100/1000
+2024-01-22 18:57:39,584 INFO     Random biases in year, progress 150/1000
+2024-01-22 18:57:47,005 INFO     Random biases in year, progress 200/1000
+2024-01-22 18:57:54,454 INFO     Random biases in year, progress 250/1000
+2024-01-22 18:58:01,911 INFO     Random biases in year, progress 300/1000
+2024-01-22 18:58:09,420 INFO     Random biases in year, progress 350/1000
+2024-01-22 18:58:16,986 INFO     Random biases in year, progress 400/1000
+2024-01-22 18:58:24,463 INFO     Random biases in year, progress 450/1000
+2024-01-22 18:58:32,211 INFO     Random biases in year, progress 500/1000
+2024-01-22 18:58:39,767 INFO     Random biases in year, progress 550/1000
+2024-01-22 18:58:47,192 INFO     Random biases in year, progress 600/1000
+2024-01-22 18:58:54,725 INFO     Random biases in year, progress 650/1000
+2024-01-22 18:59:02,182 INFO     Random biases in year, progress 700/1000
+2024-01-22 18:59:09,578 INFO     Random biases in year, progress 750/1000
+2024-01-22 18:59:17,052 INFO     Random biases in year, progress 800/1000
+2024-01-22 18:59:24,595 INFO     Random biases in year, progress 850/1000
+2024-01-22 18:59:32,044 INFO     Random biases in year, progress 900/1000
+2024-01-22 18:59:39,491 INFO     Random biases in year, progress 950/1000
+2024-01-22 18:59:46,887 INFO     Bias Mean/STD: -4.689444540417753e-05, 0.01452646404504776
+2024-01-22 18:59:46,961 INFO     Trying to open data/random-biases/regular/iter10/2023-bias-scores_iter10.pkl
+2024-01-22 18:59:46,961 INFO     No existing random biases found for 2023, computing them
+2024-01-22 18:59:46,961 INFO     Significance test moment for 2023 with filter=False and iterations 10
+2024-01-22 18:59:46,961 INFO     Gender bias wiki with 2023 and _iter10
+2024-01-22 18:59:46,962 INFO     Loading embeddings for start 2023, end 2024 and step 2
+2024-01-22 18:59:46,980 INFO     Loaded 2023_iter10-vocab.pkl
+2024-01-22 18:59:46,999 INFO     Loaded vectors from 2023_iter10.vectors.wv.npy
+2024-01-22 18:59:47,000 INFO     WEAT Dataset Loading
+2024-01-22 18:59:47,155 INFO     Random biases in year, progress 0/1000
+2024-01-22 18:59:54,326 INFO     Random biases in year, progress 50/1000
+2024-01-22 19:00:01,630 INFO     Random biases in year, progress 100/1000
+2024-01-22 19:00:08,774 INFO     Random biases in year, progress 150/1000
+2024-01-22 19:00:15,985 INFO     Random biases in year, progress 200/1000
+2024-01-22 19:00:23,174 INFO     Random biases in year, progress 250/1000
+2024-01-22 19:00:30,344 INFO     Random biases in year, progress 300/1000
+2024-01-22 19:00:37,513 INFO     Random biases in year, progress 350/1000
+2024-01-22 19:00:44,715 INFO     Random biases in year, progress 400/1000
+2024-01-22 19:00:51,963 INFO     Random biases in year, progress 450/1000
+2024-01-22 19:00:59,193 INFO     Random biases in year, progress 500/1000
+2024-01-22 19:01:06,249 INFO     Random biases in year, progress 550/1000
+2024-01-22 19:01:13,288 INFO     Random biases in year, progress 600/1000
+2024-01-22 19:01:20,326 INFO     Random biases in year, progress 650/1000
+2024-01-22 19:01:27,390 INFO     Random biases in year, progress 700/1000
+2024-01-22 19:01:34,420 INFO     Random biases in year, progress 750/1000
+2024-01-22 19:01:41,456 INFO     Random biases in year, progress 800/1000
+2024-01-22 19:01:48,556 INFO     Random biases in year, progress 850/1000
+2024-01-22 19:01:55,683 INFO     Random biases in year, progress 900/1000
+2024-01-22 19:02:02,945 INFO     Random biases in year, progress 950/1000
+2024-01-22 19:02:10,119 INFO     Bias Mean/STD: 0.001339775393716991, 0.014653612859547138
+2024-01-22 19:02:10,192 INFO     Trying to open data/random-biases/regular/iter10/2024-bias-scores_iter10.pkl
+2024-01-22 19:02:10,192 INFO     No existing random biases found for 2024, computing them
+2024-01-22 19:02:10,192 INFO     Significance test moment for 2024 with filter=False and iterations 10
+2024-01-22 19:02:10,192 INFO     Gender bias wiki with 2024 and _iter10
+2024-01-22 19:02:10,192 INFO     Loading embeddings for start 2024, end 2025 and step 2
+2024-01-22 19:02:10,206 INFO     Loaded 2024_iter10-vocab.pkl
+2024-01-22 19:02:10,220 INFO     Loaded vectors from 2024_iter10.vectors.wv.npy
+2024-01-22 19:02:10,221 INFO     WEAT Dataset Loading
+2024-01-22 19:02:10,339 INFO     Random biases in year, progress 0/1000
+2024-01-22 19:02:15,910 INFO     Random biases in year, progress 50/1000
+2024-01-22 19:02:21,370 INFO     Random biases in year, progress 100/1000
+2024-01-22 19:02:26,812 INFO     Random biases in year, progress 150/1000
+2024-01-22 19:02:32,250 INFO     Random biases in year, progress 200/1000
+2024-01-22 19:02:37,717 INFO     Random biases in year, progress 250/1000
+2024-01-22 19:02:43,266 INFO     Random biases in year, progress 300/1000
+2024-01-22 19:02:48,725 INFO     Random biases in year, progress 350/1000
+2024-01-22 19:02:54,168 INFO     Random biases in year, progress 400/1000
+2024-01-22 19:02:59,639 INFO     Random biases in year, progress 450/1000
+2024-01-22 19:03:05,076 INFO     Random biases in year, progress 500/1000
+2024-01-22 19:03:10,513 INFO     Random biases in year, progress 550/1000
+2024-01-22 19:03:15,955 INFO     Random biases in year, progress 600/1000
+2024-01-22 19:03:21,394 INFO     Random biases in year, progress 650/1000
+2024-01-22 19:03:26,880 INFO     Random biases in year, progress 700/1000
+2024-01-22 19:03:32,450 INFO     Random biases in year, progress 750/1000
+2024-01-22 19:03:37,995 INFO     Random biases in year, progress 800/1000
+2024-01-22 19:03:43,510 INFO     Random biases in year, progress 850/1000
+2024-01-22 19:03:48,950 INFO     Random biases in year, progress 900/1000
+2024-01-22 19:03:54,434 INFO     Random biases in year, progress 950/1000
+2024-01-22 19:04:00,037 INFO     Bias Mean/STD: -0.0018812454072758555, 0.010956821963191032
+2024-01-22 19:04:00,123 INFO     Saved as results/regular/iter10/biases-plot-20240122-1904.pdf
+2024-01-22 19:04:00,385 INFO     Evaluating quality
+2024-01-22 19:04:00,385 INFO     loading Word2Vec object from data/models/regular/iter10/2010_iter10
+2024-01-22 19:04:00,416 INFO     loading wv recursively from data/models/regular/iter10/2010_iter10.wv.* with mmap=None
+2024-01-22 19:04:00,417 INFO     setting ignored attribute cum_table to None
+2024-01-22 19:04:00,537 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter10/2010_iter10', 'datetime': '2024-01-22T19:04:00.537730', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 19:04:00,548 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 19:04:00,549 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 19:04:00,549 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 19:04:00,549 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 19:04:00,549 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 19:04:00,549 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 19:04:00,549 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 19:04:00,550 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 19:04:00,552 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5707
+2024-01-22 19:04:00,552 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5868
+2024-01-22 19:04:00,552 INFO     Pairs with unknown words ratio: 2.3%
+2024-01-22 19:04:00,553 INFO     2010
+2024-01-22 19:04:00,553 INFO     SPEARMAN SCORES: 
+2024-01-22 19:04:00,553 INFO     {2010: 0.5868285680466722}
+2024-01-22 19:04:00,553 INFO     PEARSON SCORES:
+2024-01-22 19:04:00,553 INFO     {2010: 0.5707170761871511}
+2024-01-22 19:04:00,553 INFO     loading Word2Vec object from data/models/regular/iter10/2017_iter10
+2024-01-22 19:04:00,584 INFO     loading wv recursively from data/models/regular/iter10/2017_iter10.wv.* with mmap=None
+2024-01-22 19:04:00,584 INFO     setting ignored attribute cum_table to None
+2024-01-22 19:04:00,702 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter10/2017_iter10', 'datetime': '2024-01-22T19:04:00.702282', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 19:04:00,711 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 19:04:00,711 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 19:04:00,711 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 19:04:00,712 INFO     Skipping line #53 with OOV words: movie	popcorn	6.19
+2024-01-22 19:04:00,712 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 19:04:00,712 INFO     Skipping line #110 with OOV words: tiger	feline	8.00
+2024-01-22 19:04:00,712 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 19:04:00,712 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 19:04:00,713 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 19:04:00,713 INFO     Skipping line #349 with OOV words: shower	thunderstorm	6.31
+2024-01-22 19:04:00,714 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5779
+2024-01-22 19:04:00,714 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5984
+2024-01-22 19:04:00,714 INFO     Pairs with unknown words ratio: 2.8%
+2024-01-22 19:04:00,714 INFO     2017
+2024-01-22 19:04:00,714 INFO     SPEARMAN SCORES: 
+2024-01-22 19:04:00,714 INFO     {2010: 0.5868285680466722, 2017: 0.5984220639188979}
+2024-01-22 19:04:00,714 INFO     PEARSON SCORES:
+2024-01-22 19:04:00,714 INFO     {2010: 0.5707170761871511, 2017: 0.5778651265032654}
+2024-01-22 19:04:00,714 INFO     loading Word2Vec object from data/models/regular/iter10/2023_iter10
+2024-01-22 19:04:00,744 INFO     loading wv recursively from data/models/regular/iter10/2023_iter10.wv.* with mmap=None
+2024-01-22 19:04:00,744 INFO     setting ignored attribute cum_table to None
+2024-01-22 19:04:00,853 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter10/2023_iter10', 'datetime': '2024-01-22T19:04:00.853568', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 19:04:00,861 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 19:04:00,861 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 19:04:00,861 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 19:04:00,861 INFO     Skipping line #37 with OOV words: king	rook	5.92
+2024-01-22 19:04:00,861 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 19:04:00,861 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 19:04:00,862 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 19:04:00,862 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 19:04:00,863 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.5937
+2024-01-22 19:04:00,863 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.6099
+2024-01-22 19:04:00,864 INFO     Pairs with unknown words ratio: 2.3%
+2024-01-22 19:04:00,864 INFO     2023
+2024-01-22 19:04:00,864 INFO     SPEARMAN SCORES: 
+2024-01-22 19:04:00,864 INFO     {2010: 0.5868285680466722, 2017: 0.5984220639188979, 2023: 0.6098502746168293}
+2024-01-22 19:04:00,864 INFO     PEARSON SCORES:
+2024-01-22 19:04:00,864 INFO     {2010: 0.5707170761871511, 2017: 0.5778651265032654, 2023: 0.5936636297523243}
+2024-01-22 19:04:00,864 INFO     loading Word2Vec object from data/models/regular/iter10/2024_iter10
+2024-01-22 19:04:00,887 INFO     loading wv recursively from data/models/regular/iter10/2024_iter10.wv.* with mmap=None
+2024-01-22 19:04:00,887 INFO     setting ignored attribute cum_table to None
+2024-01-22 19:04:00,970 INFO     Word2Vec lifecycle event {'fname': 'data/models/regular/iter10/2024_iter10', 'datetime': '2024-01-22T19:04:00.969998', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'loaded'}
+2024-01-22 19:04:00,976 INFO     Skipping line #15 with OOV words: cucumber	potato	5.92
+2024-01-22 19:04:00,976 INFO     Skipping line #34 with OOV words: professor	cucumber	0.31
+2024-01-22 19:04:00,976 INFO     Skipping line #35 with OOV words: king	cabbage	0.23
+2024-01-22 19:04:00,976 INFO     Skipping line #37 with OOV words: king	rook	5.92
+2024-01-22 19:04:00,976 INFO     Skipping line #43 with OOV words: Maradona	football	8.62
+2024-01-22 19:04:00,976 INFO     Skipping line #53 with OOV words: movie	popcorn	6.19
+2024-01-22 19:04:00,976 INFO     Skipping line #60 with OOV words: vodka	gin	8.46
+2024-01-22 19:04:00,976 INFO     Skipping line #61 with OOV words: vodka	brandy	8.13
+2024-01-22 19:04:00,976 INFO     Skipping line #73 with OOV words: asylum	madhouse	8.87
+2024-01-22 19:04:00,976 INFO     Skipping line #75 with OOV words: midday	noon	9.29
+2024-01-22 19:04:00,976 INFO     Skipping line #78 with OOV words: bird	cock	7.10
+2024-01-22 19:04:00,976 INFO     Skipping line #107 with OOV words: money	laundering	5.65
+2024-01-22 19:04:00,976 INFO     Skipping line #111 with OOV words: tiger	carnivore	7.08
+2024-01-22 19:04:00,976 INFO     Skipping line #144 with OOV words: cup	tableware	6.85
+2024-01-22 19:04:00,976 INFO     Skipping line #169 with OOV words: water	seepage	6.56
+2024-01-22 19:04:00,976 INFO     Skipping line #184 with OOV words: decoration	valor	5.63
+2024-01-22 19:04:00,977 INFO     Skipping line #214 with OOV words: death	inmate	5.03
+2024-01-22 19:04:00,977 INFO     Skipping line #221 with OOV words: OPEC	country	5.63
+2024-01-22 19:04:00,977 INFO     Skipping line #244 with OOV words: impartiality	interest	5.16
+2024-01-22 19:04:00,977 INFO     Skipping line #261 with OOV words: OPEC	oil	8.59
+2024-01-22 19:04:00,977 INFO     Skipping line #287 with OOV words: seafood	sea	7.47
+2024-01-22 19:04:00,977 INFO     Skipping line #288 with OOV words: seafood	food	8.34
+2024-01-22 19:04:00,977 INFO     Skipping line #289 with OOV words: seafood	lobster	8.70
+2024-01-22 19:04:00,977 INFO     Skipping line #290 with OOV words: lobster	food	7.81
+2024-01-22 19:04:00,977 INFO     Skipping line #291 with OOV words: lobster	wine	5.70
+2024-01-22 19:04:00,977 INFO     Skipping line #310 with OOV words: murder	manslaughter	8.53
+2024-01-22 19:04:00,977 INFO     Skipping line #349 with OOV words: shower	thunderstorm	6.31
+2024-01-22 19:04:00,978 INFO     Pearson correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.4718
+2024-01-22 19:04:00,978 INFO     Spearman rank-order correlation coefficient against /Users/saliha/anaconda3/lib/python3.11/site-packages/gensim/test/test_data/wordsim353.tsv: 0.4918
+2024-01-22 19:04:00,978 INFO     Pairs with unknown words ratio: 7.6%
+2024-01-22 19:04:00,978 INFO     2024
+2024-01-22 19:04:00,979 INFO     SPEARMAN SCORES: 
+2024-01-22 19:04:00,979 INFO     {2010: 0.5868285680466722, 2017: 0.5984220639188979, 2023: 0.6098502746168293, 2024: 0.49176911871830975}
+2024-01-22 19:04:00,979 INFO     PEARSON SCORES:
+2024-01-22 19:04:00,979 INFO     {2010: 0.5707170761871511, 2017: 0.5778651265032654, 2023: 0.5936636297523243, 2024: 0.471806894480038}
+2024-01-22 19:04:00,979 INFO     ;0.5707170761871511;0.5778651265032654;0.5936636297523243;0.471806894480038
+;0.5868285680466722;0.5984220639188979;0.6098502746168293;0.49176911871830975
+2024-01-22 19:04:01,042 INFO     Average pearson quality score is 0.5535131817306946
+2024-01-22 19:04:01,042 INFO     Average spearman quality score is 0.5717175063251773
