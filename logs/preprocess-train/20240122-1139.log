@@ -1,0 +1,236 @@
+2024-01-22 11:39:14,551 INFO     Preprocessing and training with input=data/raw/2023.xml.bz2, year=2023, load=False, filtered=False, seed=0
+2024-01-22 11:39:14,551 INFO     Trying to create corpus with file: data/raw/2023.xml.bz2
+2024-01-22 11:48:10,216 INFO     Saved 10000 articles
+2024-01-22 11:54:07,387 INFO     Saved 20000 articles
+2024-01-22 12:17:02,107 INFO     Saved 30000 articles
+2024-01-22 12:48:34,180 INFO     Saved 40000 articles
+2024-01-22 12:54:09,684 INFO     Saved 50000 articles
+2024-01-22 13:21:15,623 INFO     Saved 60000 articles
+2024-01-22 13:27:58,681 INFO     Saved 70000 articles
+2024-01-22 13:34:11,404 INFO     Saved 80000 articles
+2024-01-22 13:40:26,401 INFO     Saved 90000 articles
+2024-01-22 13:50:33,782 INFO     Saved 100000 articles
+2024-01-22 14:04:24,569 INFO     Saved 110000 articles
+2024-01-22 14:11:08,467 INFO     Saved 120000 articles
+2024-01-22 14:17:14,337 INFO     Saved 130000 articles
+2024-01-22 14:23:05,552 INFO     Saved 140000 articles
+2024-01-22 14:28:42,131 INFO     Saved 150000 articles
+2024-01-22 14:34:19,753 INFO     Saved 160000 articles
+2024-01-22 14:40:04,960 INFO     Saved 170000 articles
+2024-01-22 14:54:44,813 INFO     Saved 180000 articles
+2024-01-22 15:00:40,763 INFO     Saved 190000 articles
+2024-01-22 15:07:37,080 INFO     Saved 200000 articles
+2024-01-22 15:13:12,197 INFO     finished iterating over Wikipedia corpus of 207082 documents with 140092127 positions (total 23166660 articles, 141161367 positions before pruning articles shorter than 50 words)
+2024-01-22 15:13:12,218 INFO     Total articles: 207082
+2024-01-22 15:13:12,224 INFO     collecting all words and their counts
+2024-01-22 15:13:12,226 INFO     PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-01-22 15:13:12,611 INFO     pruned out 0 tokens with count <=1 (before 100051, after 100051)
+2024-01-22 15:13:12,619 INFO     pruned out 42487 tokens with count <=2 (before 100082, after 57595)
+2024-01-22 15:13:12,888 INFO     pruned out 44025 tokens with count <=3 (before 100095, after 56070)
+2024-01-22 15:13:13,138 INFO     pruned out 45642 tokens with count <=4 (before 100023, after 54381)
+2024-01-22 15:13:13,385 INFO     pruned out 46709 tokens with count <=5 (before 100009, after 53300)
+2024-01-22 15:13:13,638 INFO     pruned out 47539 tokens with count <=6 (before 100044, after 52505)
+2024-01-22 15:13:13,893 INFO     pruned out 48059 tokens with count <=7 (before 100017, after 51958)
+2024-01-22 15:13:14,142 INFO     pruned out 48314 tokens with count <=8 (before 100004, after 51690)
+2024-01-22 15:13:14,383 INFO     pruned out 48453 tokens with count <=9 (before 100017, after 51564)
+2024-01-22 15:13:14,459 INFO     PROGRESS: at sentence #10000, processed 21524731 words, keeping 69411 word types
+2024-01-22 15:13:14,620 INFO     pruned out 48666 tokens with count <=10 (before 100135, after 51469)
+2024-01-22 15:13:14,842 INFO     pruned out 48551 tokens with count <=11 (before 100031, after 51480)
+2024-01-22 15:13:15,065 INFO     pruned out 48546 tokens with count <=12 (before 100017, after 51471)
+2024-01-22 15:13:15,296 INFO     pruned out 48577 tokens with count <=13 (before 100044, after 51467)
+2024-01-22 15:13:15,520 INFO     pruned out 48552 tokens with count <=14 (before 100008, after 51456)
+2024-01-22 15:13:15,654 INFO     PROGRESS: at sentence #20000, processed 33128564 words, keeping 84264 word types
+2024-01-22 15:13:15,733 INFO     pruned out 48570 tokens with count <=15 (before 100024, after 51454)
+2024-01-22 15:13:15,951 INFO     pruned out 48635 tokens with count <=16 (before 100029, after 51394)
+2024-01-22 15:13:16,163 INFO     pruned out 48785 tokens with count <=17 (before 100069, after 51284)
+2024-01-22 15:13:16,370 INFO     pruned out 48790 tokens with count <=18 (before 100046, after 51256)
+2024-01-22 15:13:16,574 INFO     pruned out 48858 tokens with count <=19 (before 100043, after 51185)
+2024-01-22 15:13:16,587 INFO     PROGRESS: at sentence #30000, processed 41964628 words, keeping 54732 word types
+2024-01-22 15:13:16,769 INFO     pruned out 48966 tokens with count <=20 (before 100018, after 51052)
+2024-01-22 15:13:16,975 INFO     pruned out 49382 tokens with count <=21 (before 100286, after 50904)
+2024-01-22 15:13:17,185 INFO     pruned out 49266 tokens with count <=22 (before 100015, after 50749)
+2024-01-22 15:13:17,372 INFO     PROGRESS: at sentence #40000, processed 49498705 words, keeping 99669 word types
+2024-01-22 15:13:17,381 INFO     pruned out 49443 tokens with count <=23 (before 100024, after 50581)
+2024-01-22 15:13:17,582 INFO     pruned out 49650 tokens with count <=24 (before 100032, after 50382)
+2024-01-22 15:13:17,778 INFO     pruned out 49794 tokens with count <=25 (before 100028, after 50234)
+2024-01-22 15:13:17,979 INFO     pruned out 50002 tokens with count <=26 (before 100038, after 50036)
+2024-01-22 15:13:18,113 INFO     PROGRESS: at sentence #50000, processed 56511132 words, keeping 87591 word types
+2024-01-22 15:13:18,169 INFO     pruned out 50186 tokens with count <=27 (before 100017, after 49831)
+2024-01-22 15:13:18,362 INFO     pruned out 50363 tokens with count <=28 (before 100004, after 49641)
+2024-01-22 15:13:18,556 INFO     pruned out 50622 tokens with count <=29 (before 100066, after 49444)
+2024-01-22 15:13:18,749 INFO     pruned out 50769 tokens with count <=30 (before 100013, after 49244)
+2024-01-22 15:13:18,783 INFO     PROGRESS: at sentence #60000, processed 62787542 words, keeping 59191 word types
+2024-01-22 15:13:18,938 INFO     pruned out 50939 tokens with count <=31 (before 100002, after 49063)
+2024-01-22 15:13:19,119 INFO     pruned out 51201 tokens with count <=32 (before 100041, after 48840)
+2024-01-22 15:13:19,309 INFO     pruned out 51312 tokens with count <=33 (before 100017, after 48705)
+2024-01-22 15:13:19,417 INFO     PROGRESS: at sentence #70000, processed 68784570 words, keeping 79399 word types
+2024-01-22 15:13:19,504 INFO     pruned out 51503 tokens with count <=34 (before 100024, after 48521)
+2024-01-22 15:13:19,704 INFO     pruned out 51678 tokens with count <=35 (before 100011, after 48333)
+2024-01-22 15:13:19,899 INFO     pruned out 51821 tokens with count <=36 (before 100018, after 48197)
+2024-01-22 15:13:20,058 INFO     PROGRESS: at sentence #80000, processed 74863250 words, keeping 94884 word types
+2024-01-22 15:13:20,085 INFO     pruned out 51988 tokens with count <=37 (before 100001, after 48013)
+2024-01-22 15:13:20,281 INFO     pruned out 52142 tokens with count <=38 (before 100002, after 47860)
+2024-01-22 15:13:20,478 INFO     pruned out 52317 tokens with count <=39 (before 100021, after 47704)
+2024-01-22 15:13:20,670 INFO     pruned out 52470 tokens with count <=40 (before 100017, after 47547)
+2024-01-22 15:13:20,673 INFO     PROGRESS: at sentence #90000, processed 80605201 words, keeping 48468 word types
+2024-01-22 15:13:20,851 INFO     pruned out 52593 tokens with count <=41 (before 100006, after 47413)
+2024-01-22 15:13:21,029 INFO     pruned out 52742 tokens with count <=42 (before 100002, after 47260)
+2024-01-22 15:13:21,206 INFO     pruned out 52912 tokens with count <=43 (before 100010, after 47098)
+2024-01-22 15:13:21,263 INFO     PROGRESS: at sentence #100000, processed 86162119 words, keeping 65322 word types
+2024-01-22 15:13:21,399 INFO     pruned out 53053 tokens with count <=44 (before 100022, after 46969)
+2024-01-22 15:13:21,592 INFO     pruned out 53178 tokens with count <=45 (before 100022, after 46844)
+2024-01-22 15:13:21,780 INFO     pruned out 53274 tokens with count <=46 (before 100004, after 46730)
+2024-01-22 15:13:21,828 INFO     PROGRESS: at sentence #110000, processed 91471553 words, keeping 61942 word types
+2024-01-22 15:13:21,963 INFO     pruned out 53436 tokens with count <=47 (before 100004, after 46568)
+2024-01-22 15:13:22,149 INFO     pruned out 53598 tokens with count <=48 (before 100013, after 46415)
+2024-01-22 15:13:22,332 INFO     pruned out 53704 tokens with count <=49 (before 100018, after 46314)
+2024-01-22 15:13:22,420 INFO     PROGRESS: at sentence #120000, processed 97051416 words, keeping 75257 word types
+2024-01-22 15:13:22,527 INFO     pruned out 53817 tokens with count <=50 (before 100009, after 46192)
+2024-01-22 15:13:22,708 INFO     pruned out 53959 tokens with count <=51 (before 100029, after 46070)
+2024-01-22 15:13:22,902 INFO     pruned out 54181 tokens with count <=52 (before 100133, after 45952)
+2024-01-22 15:13:22,985 INFO     PROGRESS: at sentence #130000, processed 102377616 words, keeping 71021 word types
+2024-01-22 15:13:23,100 INFO     pruned out 54174 tokens with count <=53 (before 100004, after 45830)
+2024-01-22 15:13:23,301 INFO     pruned out 54292 tokens with count <=54 (before 100013, after 45721)
+2024-01-22 15:13:23,496 INFO     pruned out 54380 tokens with count <=55 (before 100004, after 45624)
+2024-01-22 15:13:23,548 INFO     PROGRESS: at sentence #140000, processed 107680399 words, keeping 62151 word types
+2024-01-22 15:13:23,692 INFO     pruned out 54500 tokens with count <=56 (before 100012, after 45512)
+2024-01-22 15:13:23,881 INFO     pruned out 54678 tokens with count <=57 (before 100084, after 45406)
+2024-01-22 15:13:24,065 INFO     pruned out 54708 tokens with count <=58 (before 100002, after 45294)
+2024-01-22 15:13:24,088 INFO     PROGRESS: at sentence #150000, processed 112744281 words, keeping 54735 word types
+2024-01-22 15:13:24,253 INFO     pruned out 54846 tokens with count <=59 (before 100014, after 45168)
+2024-01-22 15:13:24,453 INFO     pruned out 54969 tokens with count <=60 (before 100011, after 45042)
+2024-01-22 15:13:24,604 INFO     PROGRESS: at sentence #160000, processed 117666252 words, keeping 89934 word types
+2024-01-22 15:13:24,651 INFO     pruned out 55071 tokens with count <=61 (before 100010, after 44939)
+2024-01-22 15:13:24,849 INFO     pruned out 55190 tokens with count <=62 (before 100002, after 44812)
+2024-01-22 15:13:25,052 INFO     pruned out 55321 tokens with count <=63 (before 100034, after 44713)
+2024-01-22 15:13:25,101 INFO     PROGRESS: at sentence #170000, processed 122306160 words, keeping 60158 word types
+2024-01-22 15:13:25,254 INFO     pruned out 55390 tokens with count <=64 (before 100006, after 44616)
+2024-01-22 15:13:25,460 INFO     pruned out 55487 tokens with count <=65 (before 100005, after 44518)
+2024-01-22 15:13:25,606 INFO     PROGRESS: at sentence #180000, processed 127103317 words, keeping 89002 word types
+2024-01-22 15:13:25,659 INFO     pruned out 55582 tokens with count <=66 (before 100007, after 44425)
+2024-01-22 15:13:25,862 INFO     pruned out 55693 tokens with count <=67 (before 100014, after 44321)
+2024-01-22 15:13:26,065 INFO     pruned out 55750 tokens with count <=68 (before 100001, after 44251)
+2024-01-22 15:13:26,151 INFO     PROGRESS: at sentence #190000, processed 132185944 words, keeping 71782 word types
+2024-01-22 15:13:26,258 INFO     pruned out 55875 tokens with count <=69 (before 100028, after 44153)
+2024-01-22 15:13:26,459 INFO     pruned out 55938 tokens with count <=70 (before 100004, after 44066)
+2024-01-22 15:13:26,646 INFO     PROGRESS: at sentence #200000, processed 136679207 words, keeping 96422 word types
+2024-01-22 15:13:26,673 INFO     pruned out 56051 tokens with count <=71 (before 100024, after 43973)
+2024-01-22 15:13:26,885 INFO     pruned out 56132 tokens with count <=72 (before 100017, after 43885)
+2024-01-22 15:13:27,033 INFO     collected 88393 word types from a corpus of 140092127 raw words and 207444 sentences
+2024-01-22 15:13:27,033 INFO     Creating a fresh vocabulary
+2024-01-22 15:13:27,076 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 46787 unique words (52.93% of original 88393, drops 41606)', 'datetime': '2024-01-22T15:13:27.075887', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-22 15:13:27,076 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 132864964 word corpus (99.96% of original 132921934, drops 56970)', 'datetime': '2024-01-22T15:13:27.076493', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-22 15:13:27,137 INFO     deleting the raw counts dictionary of 88393 items
+2024-01-22 15:13:27,138 INFO     sample=0 downsamples 0 most-common words
+2024-01-22 15:13:27,138 INFO     Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 132864964 word corpus (100.0%% of prior 132864964)', 'datetime': '2024-01-22T15:13:27.138940', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-22 15:13:27,249 INFO     estimated required memory for 46787 words and 100 dimensions: 60823100 bytes
+2024-01-22 15:13:27,249 INFO     resetting layer weights
+2024-01-22 15:13:27,263 INFO     Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-01-22T15:13:27.263607', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'build_vocab'}
+2024-01-22 15:13:27,263 INFO     Word2Vec lifecycle event {'msg': 'training model with 3 workers on 46787 vocabulary and 100 features, using sg=0 hs=0 sample=0 negative=5 window=5 shrink_windows=True', 'datetime': '2024-01-22T15:13:27.263672', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-22 15:13:28,266 INFO     EPOCH 0 - PROGRESS: at 0.34% examples, 2532588 words/s, in_qsize 6, out_qsize 0
+2024-01-22 15:13:29,272 INFO     EPOCH 0 - PROGRESS: at 0.74% examples, 2555651 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:30,273 INFO     EPOCH 0 - PROGRESS: at 1.17% examples, 2580133 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:31,277 INFO     EPOCH 0 - PROGRESS: at 1.73% examples, 2587317 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:32,278 INFO     EPOCH 0 - PROGRESS: at 2.39% examples, 2601669 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:33,280 INFO     EPOCH 0 - PROGRESS: at 3.06% examples, 2604209 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:34,283 INFO     EPOCH 0 - PROGRESS: at 3.92% examples, 2610049 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:35,288 INFO     EPOCH 0 - PROGRESS: at 4.90% examples, 2616672 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:36,289 INFO     EPOCH 0 - PROGRESS: at 5.92% examples, 2621329 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:37,295 INFO     EPOCH 0 - PROGRESS: at 7.01% examples, 2622392 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:38,301 INFO     EPOCH 0 - PROGRESS: at 8.23% examples, 2626691 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:39,301 INFO     EPOCH 0 - PROGRESS: at 9.51% examples, 2628553 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:40,310 INFO     EPOCH 0 - PROGRESS: at 10.90% examples, 2629953 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:41,310 INFO     EPOCH 0 - PROGRESS: at 12.47% examples, 2632855 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:42,316 INFO     EPOCH 0 - PROGRESS: at 14.05% examples, 2633224 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:43,318 INFO     EPOCH 0 - PROGRESS: at 15.72% examples, 2634578 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:44,320 INFO     EPOCH 0 - PROGRESS: at 17.51% examples, 2636906 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:45,325 INFO     EPOCH 0 - PROGRESS: at 19.39% examples, 2637084 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:46,328 INFO     EPOCH 0 - PROGRESS: at 21.29% examples, 2638255 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:47,333 INFO     EPOCH 0 - PROGRESS: at 23.22% examples, 2639368 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:48,333 INFO     EPOCH 0 - PROGRESS: at 25.28% examples, 2639259 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:49,336 INFO     EPOCH 0 - PROGRESS: at 27.40% examples, 2640473 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:50,337 INFO     EPOCH 0 - PROGRESS: at 29.58% examples, 2640436 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:51,345 INFO     EPOCH 0 - PROGRESS: at 31.87% examples, 2640459 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:52,348 INFO     EPOCH 0 - PROGRESS: at 34.15% examples, 2641377 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:53,350 INFO     EPOCH 0 - PROGRESS: at 36.30% examples, 2641903 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:54,351 INFO     EPOCH 0 - PROGRESS: at 38.60% examples, 2642793 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:55,357 INFO     EPOCH 0 - PROGRESS: at 40.92% examples, 2643015 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:56,357 INFO     EPOCH 0 - PROGRESS: at 43.29% examples, 2643329 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:57,358 INFO     EPOCH 0 - PROGRESS: at 45.79% examples, 2642912 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:58,358 INFO     EPOCH 0 - PROGRESS: at 48.17% examples, 2642676 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:13:59,360 INFO     EPOCH 0 - PROGRESS: at 50.56% examples, 2643868 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:00,361 INFO     EPOCH 0 - PROGRESS: at 53.32% examples, 2644002 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:01,363 INFO     EPOCH 0 - PROGRESS: at 55.79% examples, 2643771 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:02,364 INFO     EPOCH 0 - PROGRESS: at 58.17% examples, 2644413 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:03,369 INFO     EPOCH 0 - PROGRESS: at 60.79% examples, 2644688 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:04,371 INFO     EPOCH 0 - PROGRESS: at 63.29% examples, 2645136 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:05,373 INFO     EPOCH 0 - PROGRESS: at 65.82% examples, 2645638 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:06,377 INFO     EPOCH 0 - PROGRESS: at 68.43% examples, 2645713 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:07,377 INFO     EPOCH 0 - PROGRESS: at 71.17% examples, 2645580 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:08,383 INFO     EPOCH 0 - PROGRESS: at 73.79% examples, 2646171 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:09,385 INFO     EPOCH 0 - PROGRESS: at 76.63% examples, 2647082 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:10,388 INFO     EPOCH 0 - PROGRESS: at 79.53% examples, 2647516 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:11,391 INFO     EPOCH 0 - PROGRESS: at 82.50% examples, 2648003 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:12,394 INFO     EPOCH 0 - PROGRESS: at 85.31% examples, 2648704 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:13,399 INFO     EPOCH 0 - PROGRESS: at 88.12% examples, 2648759 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:14,400 INFO     EPOCH 0 - PROGRESS: at 90.77% examples, 2648716 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:15,400 INFO     EPOCH 0 - PROGRESS: at 93.68% examples, 2648992 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:16,402 INFO     EPOCH 0 - PROGRESS: at 96.81% examples, 2649902 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:17,408 INFO     EPOCH 0 - PROGRESS: at 99.75% examples, 2650366 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:17,483 INFO     EPOCH 0: training on 140092127 raw words (133107391 effective words) took 50.2s, 2650599 effective words/s
+2024-01-22 15:14:18,486 INFO     EPOCH 1 - PROGRESS: at 0.35% examples, 2610883 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:19,489 INFO     EPOCH 1 - PROGRESS: at 0.76% examples, 2619958 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:20,490 INFO     EPOCH 1 - PROGRESS: at 1.20% examples, 2635102 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:21,490 INFO     EPOCH 1 - PROGRESS: at 1.76% examples, 2636686 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:22,491 INFO     EPOCH 1 - PROGRESS: at 2.44% examples, 2645757 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:23,492 INFO     EPOCH 1 - PROGRESS: at 3.12% examples, 2641209 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:24,498 INFO     EPOCH 1 - PROGRESS: at 3.99% examples, 2642729 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:25,499 INFO     EPOCH 1 - PROGRESS: at 4.99% examples, 2644942 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:26,504 INFO     EPOCH 1 - PROGRESS: at 6.00% examples, 2643820 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:27,508 INFO     EPOCH 1 - PROGRESS: at 7.09% examples, 2644954 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:28,511 INFO     EPOCH 1 - PROGRESS: at 8.33% examples, 2645878 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:29,512 INFO     EPOCH 1 - PROGRESS: at 9.61% examples, 2646718 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:30,512 INFO     EPOCH 1 - PROGRESS: at 11.01% examples, 2646942 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:31,515 INFO     EPOCH 1 - PROGRESS: at 12.59% examples, 2648604 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:32,518 INFO     EPOCH 1 - PROGRESS: at 14.16% examples, 2648734 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:33,518 INFO     EPOCH 1 - PROGRESS: at 15.85% examples, 2649898 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:34,524 INFO     EPOCH 1 - PROGRESS: at 17.63% examples, 2650260 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:35,527 INFO     EPOCH 1 - PROGRESS: at 19.55% examples, 2650273 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:36,530 INFO     EPOCH 1 - PROGRESS: at 21.44% examples, 2650856 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:37,531 INFO     EPOCH 1 - PROGRESS: at 23.36% examples, 2651076 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:38,535 INFO     EPOCH 1 - PROGRESS: at 25.45% examples, 2651094 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:39,543 INFO     EPOCH 1 - PROGRESS: at 27.57% examples, 2651061 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:40,544 INFO     EPOCH 1 - PROGRESS: at 29.72% examples, 2649951 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:41,545 INFO     EPOCH 1 - PROGRESS: at 32.02% examples, 2649839 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:42,548 INFO     EPOCH 1 - PROGRESS: at 34.28% examples, 2649842 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:43,548 INFO     EPOCH 1 - PROGRESS: at 36.45% examples, 2650189 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:44,549 INFO     EPOCH 1 - PROGRESS: at 38.73% examples, 2650708 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:45,549 INFO     EPOCH 1 - PROGRESS: at 41.06% examples, 2650901 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:46,555 INFO     EPOCH 1 - PROGRESS: at 43.46% examples, 2650905 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:47,555 INFO     EPOCH 1 - PROGRESS: at 45.98% examples, 2651106 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:48,555 INFO     EPOCH 1 - PROGRESS: at 48.30% examples, 2651461 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:49,555 INFO     EPOCH 1 - PROGRESS: at 50.77% examples, 2652099 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:50,556 INFO     EPOCH 1 - PROGRESS: at 53.53% examples, 2651696 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:51,557 INFO     EPOCH 1 - PROGRESS: at 55.98% examples, 2651393 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:52,557 INFO     EPOCH 1 - PROGRESS: at 58.33% examples, 2651481 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:53,565 INFO     EPOCH 1 - PROGRESS: at 60.97% examples, 2651442 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:54,566 INFO     EPOCH 1 - PROGRESS: at 63.46% examples, 2651724 words/s, in_qsize 6, out_qsize 0
+2024-01-22 15:14:55,567 INFO     EPOCH 1 - PROGRESS: at 65.98% examples, 2651735 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:56,570 INFO     EPOCH 1 - PROGRESS: at 68.61% examples, 2651890 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:57,570 INFO     EPOCH 1 - PROGRESS: at 71.32% examples, 2651466 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:58,572 INFO     EPOCH 1 - PROGRESS: at 73.95% examples, 2651732 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:14:59,574 INFO     EPOCH 1 - PROGRESS: at 76.77% examples, 2652113 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:00,575 INFO     EPOCH 1 - PROGRESS: at 79.67% examples, 2652133 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:01,576 INFO     EPOCH 1 - PROGRESS: at 82.57% examples, 2651719 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:02,584 INFO     EPOCH 1 - PROGRESS: at 85.36% examples, 2651519 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:03,588 INFO     EPOCH 1 - PROGRESS: at 88.16% examples, 2651612 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:04,588 INFO     EPOCH 1 - PROGRESS: at 90.84% examples, 2651777 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:05,594 INFO     EPOCH 1 - PROGRESS: at 93.67% examples, 2650159 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:06,595 INFO     EPOCH 1 - PROGRESS: at 96.68% examples, 2648892 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:07,595 INFO     EPOCH 1 - PROGRESS: at 99.55% examples, 2648882 words/s, in_qsize 5, out_qsize 0
+2024-01-22 15:15:07,729 INFO     EPOCH 1: training on 140092127 raw words (133107391 effective words) took 50.2s, 2649127 effective words/s
+2024-01-22 15:15:07,729 INFO     Word2Vec lifecycle event {'msg': 'training on 280184254 raw words (266214782 effective words) took 100.5s, 2649818 effective words/s', 'datetime': '2024-01-22T15:15:07.729440', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-22 15:15:07,729 INFO     Word2Vec lifecycle event {'params': 'Word2Vec<vocab=46787, vector_size=100, alpha=0.025>', 'datetime': '2024-01-22T15:15:07.729498', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'created'}
+2024-01-22 15:15:07,734 INFO     Word2Vec lifecycle event {'fname_or_handle': 'data/models/regular/iter2/2023_iter2', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-01-22T15:15:07.734170', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'saving'}
+2024-01-22 15:15:07,734 INFO     not storing attribute cum_table
+2024-01-22 15:15:07,752 INFO     saved data/models/regular/iter2/2023_iter2

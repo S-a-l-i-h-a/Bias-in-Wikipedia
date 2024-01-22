@@ -1,0 +1,27 @@
+2024-01-19 20:50:07,947 INFO     Preprocessing and training with input=data/raw/2024.xml.bz2, year=2024, load=False, filtered=False, seed=0
+2024-01-19 20:50:07,947 INFO     Trying to create corpus with file: data/raw/2024.xml.bz2
+2024-01-19 20:51:46,557 INFO     finished iterating over Wikipedia corpus of 375 documents with 1396567 positions (total 27378 articles, 1396576 positions before pruning articles shorter than 50 words)
+2024-01-19 20:51:46,564 INFO     Total articles: 375
+2024-01-19 20:51:46,566 INFO     collecting all words and their counts
+2024-01-19 20:51:46,566 INFO     PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-01-19 20:51:46,802 INFO     collected 58084 word types from a corpus of 1396567 raw words and 398 sentences
+2024-01-19 20:51:46,803 INFO     Creating a fresh vocabulary
+2024-01-19 20:51:46,831 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 17230 unique words (29.66% of original 58084, drops 40854)', 'datetime': '2024-01-19T20:51:46.831385', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-19 20:51:46,831 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 1330119 word corpus (95.24% of original 1396567, drops 66448)', 'datetime': '2024-01-19T20:51:46.831481', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-19 20:51:46,870 INFO     deleting the raw counts dictionary of 58084 items
+2024-01-19 20:51:46,871 INFO     sample=0 downsamples 0 most-common words
+2024-01-19 20:51:46,871 INFO     Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 1330119 word corpus (100.0%% of prior 1330119)', 'datetime': '2024-01-19T20:51:46.871611', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-19 20:51:46,943 INFO     estimated required memory for 17230 words and 100 dimensions: 22399000 bytes
+2024-01-19 20:51:46,943 INFO     resetting layer weights
+2024-01-19 20:51:46,952 INFO     Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-01-19T20:51:46.952902', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'build_vocab'}
+2024-01-19 20:51:46,952 INFO     Word2Vec lifecycle event {'msg': 'training model with 3 workers on 17230 vocabulary and 100 features, using sg=0 hs=0 sample=0 negative=5 window=5 shrink_windows=True', 'datetime': '2024-01-19T20:51:46.952954', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-19 20:51:47,697 INFO     EPOCH 0: training on 1396567 raw words (1330119 effective words) took 0.7s, 1788025 effective words/s
+2024-01-19 20:51:48,520 INFO     EPOCH 1: training on 1396567 raw words (1330119 effective words) took 0.8s, 1618277 effective words/s
+2024-01-19 20:51:49,367 INFO     EPOCH 2: training on 1396567 raw words (1330119 effective words) took 0.8s, 1572564 effective words/s
+2024-01-19 20:51:50,181 INFO     EPOCH 3: training on 1396567 raw words (1330119 effective words) took 0.8s, 1637046 effective words/s
+2024-01-19 20:51:50,953 INFO     EPOCH 4: training on 1396567 raw words (1330119 effective words) took 0.8s, 1724312 effective words/s
+2024-01-19 20:51:50,953 INFO     Word2Vec lifecycle event {'msg': 'training on 6982835 raw words (6650595 effective words) took 4.0s, 1662253 effective words/s', 'datetime': '2024-01-19T20:51:50.953970', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-19 20:51:50,954 INFO     Word2Vec lifecycle event {'params': 'Word2Vec<vocab=17230, vector_size=100, alpha=0.025>', 'datetime': '2024-01-19T20:51:50.954043', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'created'}
+2024-01-19 20:51:50,958 INFO     Word2Vec lifecycle event {'fname_or_handle': 'data/models/regular/iter5/2024_iter5', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-01-19T20:51:50.958886', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'saving'}
+2024-01-19 20:51:50,959 INFO     not storing attribute cum_table
+2024-01-19 20:51:50,968 INFO     saved data/models/regular/iter5/2024_iter5

@@ -1,0 +1,104 @@
+2024-01-21 19:00:33,156 INFO     Preprocessing and training with input=data/raw/2010.xml.bz2, year=2010, load=False, filtered=False, seed=0
+2024-01-21 19:00:33,156 INFO     Trying to create corpus with file: data/raw/2010.xml.bz2
+2024-01-21 19:11:48,416 INFO     Saved 10000 articles
+2024-01-21 19:20:41,753 INFO     Saved 20000 articles
+2024-01-21 19:30:17,534 INFO     Saved 30000 articles
+2024-01-21 19:44:39,995 INFO     Saved 40000 articles
+2024-01-21 20:00:00,071 INFO     Saved 50000 articles
+2024-01-21 20:07:04,982 INFO     finished iterating over Wikipedia corpus of 54586 documents with 34368350 positions (total 9654328 articles, 34732589 positions before pruning articles shorter than 50 words)
+2024-01-21 20:07:05,010 INFO     Total articles: 54586
+2024-01-21 20:07:05,018 INFO     collecting all words and their counts
+2024-01-21 20:07:05,019 INFO     PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-01-21 20:07:05,646 INFO     pruned out 0 tokens with count <=1 (before 100011, after 100011)
+2024-01-21 20:07:05,659 INFO     pruned out 43919 tokens with count <=2 (before 100014, after 56095)
+2024-01-21 20:07:06,083 INFO     pruned out 46074 tokens with count <=3 (before 100007, after 53933)
+2024-01-21 20:07:06,535 INFO     pruned out 46919 tokens with count <=4 (before 100009, after 53090)
+2024-01-21 20:07:06,935 INFO     pruned out 47517 tokens with count <=5 (before 100002, after 52485)
+2024-01-21 20:07:07,108 INFO     PROGRESS: at sentence #10000, processed 11740851 words, keeping 74691 word types
+2024-01-21 20:07:07,327 INFO     pruned out 47796 tokens with count <=6 (before 100001, after 52205)
+2024-01-21 20:07:07,726 INFO     pruned out 48091 tokens with count <=7 (before 100054, after 51963)
+2024-01-21 20:07:08,116 INFO     pruned out 48186 tokens with count <=8 (before 100002, after 51816)
+2024-01-21 20:07:08,203 INFO     PROGRESS: at sentence #20000, processed 17828822 words, keeping 66117 word types
+2024-01-21 20:07:08,494 INFO     pruned out 48368 tokens with count <=9 (before 100001, after 51633)
+2024-01-21 20:07:08,841 INFO     pruned out 48773 tokens with count <=10 (before 100047, after 51274)
+2024-01-21 20:07:09,126 INFO     PROGRESS: at sentence #30000, processed 22985884 words, keeping 90012 word types
+2024-01-21 20:07:09,217 INFO     pruned out 48915 tokens with count <=11 (before 100010, after 51095)
+2024-01-21 20:07:09,589 INFO     pruned out 49325 tokens with count <=12 (before 100039, after 50714)
+2024-01-21 20:07:09,939 INFO     pruned out 49644 tokens with count <=13 (before 100014, after 50370)
+2024-01-21 20:07:09,971 INFO     PROGRESS: at sentence #40000, processed 27634776 words, keeping 56051 word types
+2024-01-21 20:07:10,296 INFO     pruned out 50049 tokens with count <=14 (before 100083, after 50034)
+2024-01-21 20:07:10,657 INFO     pruned out 50418 tokens with count <=15 (before 100108, after 49690)
+2024-01-21 20:07:10,823 INFO     PROGRESS: at sentence #50000, processed 32367746 words, keeping 75298 word types
+2024-01-21 20:07:11,016 INFO     pruned out 50604 tokens with count <=16 (before 100023, after 49419)
+2024-01-21 20:07:11,185 INFO     collected 79108 word types from a corpus of 34368350 raw words and 54644 sentences
+2024-01-21 20:07:11,185 INFO     Creating a fresh vocabulary
+2024-01-21 20:07:11,261 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 51298 unique words (64.85% of original 79108, drops 27810)', 'datetime': '2024-01-21T20:07:11.261637', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-21 20:07:11,261 INFO     Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 33113303 word corpus (99.89% of original 33150354, drops 37051)', 'datetime': '2024-01-21T20:07:11.261785', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-21 20:07:11,376 INFO     deleting the raw counts dictionary of 79108 items
+2024-01-21 20:07:11,376 INFO     sample=0 downsamples 0 most-common words
+2024-01-21 20:07:11,376 INFO     Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 33113303 word corpus (100.0%% of prior 33113303)', 'datetime': '2024-01-21T20:07:11.376945', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'prepare_vocab'}
+2024-01-21 20:07:11,580 INFO     estimated required memory for 51298 words and 100 dimensions: 66687400 bytes
+2024-01-21 20:07:11,580 INFO     resetting layer weights
+2024-01-21 20:07:11,604 INFO     Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-01-21T20:07:11.604373', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'build_vocab'}
+2024-01-21 20:07:11,604 INFO     Word2Vec lifecycle event {'msg': 'training model with 3 workers on 51298 vocabulary and 100 features, using sg=0 hs=0 sample=0 negative=5 window=5 shrink_windows=True', 'datetime': '2024-01-21T20:07:11.604445', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-21 20:07:11,604 INFO     TRAIN BEGIN
+2024-01-21 20:07:11,604 INFO     EPOCH BEGIN
+2024-01-21 20:07:12,614 INFO     EPOCH 0 - PROGRESS: at 1.21% examples, 1621390 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:13,615 INFO     EPOCH 0 - PROGRESS: at 2.84% examples, 1642763 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:14,617 INFO     EPOCH 0 - PROGRESS: at 4.96% examples, 1646858 words/s, in_qsize 5, out_qsize 1
+2024-01-21 20:07:15,620 INFO     EPOCH 0 - PROGRESS: at 7.54% examples, 1651224 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:16,621 INFO     EPOCH 0 - PROGRESS: at 10.92% examples, 1658820 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:17,626 INFO     EPOCH 0 - PROGRESS: at 14.61% examples, 1657724 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:18,627 INFO     EPOCH 0 - PROGRESS: at 18.94% examples, 1661443 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:19,630 INFO     EPOCH 0 - PROGRESS: at 23.60% examples, 1665558 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:20,631 INFO     EPOCH 0 - PROGRESS: at 29.04% examples, 1666745 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:21,631 INFO     EPOCH 0 - PROGRESS: at 34.72% examples, 1668957 words/s, in_qsize 6, out_qsize 0
+2024-01-21 20:07:22,639 INFO     EPOCH 0 - PROGRESS: at 40.49% examples, 1669680 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:23,647 INFO     EPOCH 0 - PROGRESS: at 46.81% examples, 1670874 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:24,649 INFO     EPOCH 0 - PROGRESS: at 53.13% examples, 1672441 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:25,649 INFO     EPOCH 0 - PROGRESS: at 59.87% examples, 1673900 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:26,653 INFO     EPOCH 0 - PROGRESS: at 66.93% examples, 1674640 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:27,654 INFO     EPOCH 0 - PROGRESS: at 73.85% examples, 1674364 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:28,656 INFO     EPOCH 0 - PROGRESS: at 80.85% examples, 1675413 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:29,659 INFO     EPOCH 0 - PROGRESS: at 87.40% examples, 1675313 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:30,663 INFO     EPOCH 0 - PROGRESS: at 94.59% examples, 1675846 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:31,386 INFO     EPOCH 0: training on 34368350 raw words (33157617 effective words) took 19.8s, 1676307 effective words/s
+2024-01-21 20:07:31,386 INFO     EPOCH END
+2024-01-21 20:07:31,392 INFO     Word2Vec lifecycle event {'fname_or_handle': 'data/models/regular/iter1/2010_iter1', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-01-21T20:07:31.392477', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'saving'}
+2024-01-21 20:07:31,392 INFO     not storing attribute cum_table
+2024-01-21 20:07:31,488 INFO     saved data/models/regular/iter1/2010_iter1
+2024-01-21 20:07:31,514 INFO     Iteration 2 saved as 2010_iter1
+2024-01-21 20:07:31,514 INFO     EPOCH BEGIN
+2024-01-21 20:07:32,516 INFO     EPOCH 1 - PROGRESS: at 1.19% examples, 1613665 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:33,517 INFO     EPOCH 1 - PROGRESS: at 2.79% examples, 1631921 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:34,525 INFO     EPOCH 1 - PROGRESS: at 4.67% examples, 1587668 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:35,527 INFO     EPOCH 1 - PROGRESS: at 6.67% examples, 1521949 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:36,532 INFO     EPOCH 1 - PROGRESS: at 8.98% examples, 1468468 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:37,545 INFO     EPOCH 1 - PROGRESS: at 11.74% examples, 1445536 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:38,545 INFO     EPOCH 1 - PROGRESS: at 14.97% examples, 1440583 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:39,547 INFO     EPOCH 1 - PROGRESS: at 18.40% examples, 1426360 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:40,548 INFO     EPOCH 1 - PROGRESS: at 21.54% examples, 1402988 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:41,551 INFO     EPOCH 1 - PROGRESS: at 25.16% examples, 1380780 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:42,555 INFO     EPOCH 1 - PROGRESS: at 29.48% examples, 1375156 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:43,566 INFO     EPOCH 1 - PROGRESS: at 34.24% examples, 1379190 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:44,573 INFO     EPOCH 1 - PROGRESS: at 39.29% examples, 1384349 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:45,579 INFO     EPOCH 1 - PROGRESS: at 44.69% examples, 1388750 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:46,581 INFO     EPOCH 1 - PROGRESS: at 49.93% examples, 1392828 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:47,591 INFO     EPOCH 1 - PROGRESS: at 55.18% examples, 1387810 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:48,597 INFO     EPOCH 1 - PROGRESS: at 60.24% examples, 1382255 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:49,604 INFO     EPOCH 1 - PROGRESS: at 65.38% examples, 1373134 words/s, in_qsize 6, out_qsize 0
+2024-01-21 20:07:50,605 INFO     EPOCH 1 - PROGRESS: at 70.46% examples, 1365144 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:51,610 INFO     EPOCH 1 - PROGRESS: at 76.40% examples, 1366801 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:52,617 INFO     EPOCH 1 - PROGRESS: at 81.63% examples, 1364978 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:53,619 INFO     EPOCH 1 - PROGRESS: at 87.30% examples, 1367622 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:54,622 INFO     EPOCH 1 - PROGRESS: at 93.52% examples, 1371026 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:55,627 INFO     EPOCH 1 - PROGRESS: at 99.48% examples, 1370520 words/s, in_qsize 5, out_qsize 0
+2024-01-21 20:07:55,709 INFO     EPOCH 1: training on 34368350 raw words (33157617 effective words) took 24.2s, 1370498 effective words/s
+2024-01-21 20:07:55,709 INFO     EPOCH END
+2024-01-21 20:07:55,716 INFO     Word2Vec lifecycle event {'fname_or_handle': 'data/models/regular/iter2/2010_iter2', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-01-21T20:07:55.716464', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'saving'}
+2024-01-21 20:07:55,716 INFO     not storing attribute cum_table
+2024-01-21 20:07:55,757 INFO     saved data/models/regular/iter2/2010_iter2
+2024-01-21 20:07:55,780 INFO     Iteration 3 saved as 2010_iter2
+2024-01-21 20:07:55,780 INFO     Word2Vec lifecycle event {'msg': 'training on 68736700 raw words (66315234 effective words) took 44.2s, 1501167 effective words/s', 'datetime': '2024-01-21T20:07:55.780748', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'train'}
+2024-01-21 20:07:55,780 INFO     TRAIN END
+2024-01-21 20:07:55,780 INFO     Word2Vec lifecycle event {'params': 'Word2Vec<vocab=51298, vector_size=100, alpha=0.025>', 'datetime': '2024-01-21T20:07:55.780872', 'gensim': '4.3.2', 'python': '3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]', 'platform': 'macOS-14.2.1-arm64-arm-64bit', 'event': 'created'}
