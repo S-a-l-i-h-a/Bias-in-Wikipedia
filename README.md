@@ -11,6 +11,8 @@ Data Source and Model
 
 This thesis builds upon the groundwork laid by [K. Schmahl's repository](https://gitlab.com/kschmahl/wikipedia-gender-bias-over-time) which explores gender bias in Wikipedia over time. The codebase has undergone some of the enhancements, now compatible with Python 3.11, and notable bug fixes have been implemented.
 
+Unfortunately, due to the size of model corpus of words and data, it could not be on github, but if you are interested yourself, feel free to contact me via Linkedin. 
+
 Dataset
 ---------------------
 Created out of the xml dumps form [Wikimedia dump page](https://dumps.wikimedia.org/enwiki/20240101/) and on [Wikipedia torrent page](https://meta.wikimedia.org/wiki/Data_dump_torrents#English_Wikipedia) for older versions, as the Wikimedia page with their mirror pages consists only of last 5 recent dumps which are updated at least every month. Each file is pretty heavy, 2023 year having 21GB of data or around 5 milion articles which are filtered to around 270K which we used for research 
