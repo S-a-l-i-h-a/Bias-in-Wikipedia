@@ -1,0 +1,6 @@
+WEAT_Topic_Career,executive,management,professional,corporation,salary,office,business,career
+WEAT_Topic_Family,home,parents,children,family,cousins,marriage,wedding,relatives
+WEAT_Topic_Arts,poetry,art,dance,literature,novel,symphony,drama,sculpture,shakespeare
+WEAT_Topic_Male,he,his,man,male,boy,son,brother,father,uncle,gentleman
+WEAT_Topic_Female,she,her,woman,female,girl,daughter,sister,mother,aunt,lady
+WEAT_Topic_Science,science,technology,physics,chemistry,einstein,nasa,experiment,astronomy
